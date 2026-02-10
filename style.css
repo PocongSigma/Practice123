@@ -1,8 +1,11 @@
 style.css
 
-body {
+html, body {
     margin: 0;
-    height: 100vh;
+    height: 100%;
+}
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-family: "Pixelify Sans", sans-serif;
+
     }
 
     /* Envelope Screen */
