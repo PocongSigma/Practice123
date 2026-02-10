@@ -6,32 +6,24 @@ html, body {
 }
 
 body {
-    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("heart-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: "Pixelify Sans", sans-serif;
     background-attachment: fixed;
-    
-    display: block;
-}
-
-
+         }
 
 
     /* Envelope Screen */
     #envelope-container {
-    position: fixed;
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    
-}
+        text-align: center;
+        cursor:pointer;
 
-    
+        }
 
         @keyframes pulse {
             0% {
@@ -56,29 +48,32 @@ body {
     display: none;
     position: fixed;
     inset: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px; 
-    box-sizing: border-box;
 }
 
-
 .letter-window{
-    width: 90vw;             
+    width: 90vw;
     max-width: 800px;
-    aspect-ratio: 3/2;       
-    padding-top: 180px;     
+    aspect-ratio: 3/2;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-image: url("window.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 12px;
+    gap: 1px;
+    padding-top: 180px;
 
-    transform: scale(1);
-    opacity: 1;
+    transform: scale(1.2);
+    opacity: 0;
     transition: transform 0.6s ease, opacity 0.6s ease;
-}
-
+    }
 
 .letter-window.open {
     transform:scale(1);
