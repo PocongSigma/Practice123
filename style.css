@@ -56,24 +56,23 @@ body {
     width: 90vw;
     max-width: 800px;
     aspect-ratio: 3/2;
-    padding: 20px 20px 0 20px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* vertikal */
+    align-items: center;     /* horizontal */
     text-align: center;
+
     background-image: url("window.png");
-    background-size: contain;
+    background-size: cover;      /* ubah dari contain ke cover */
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 12px;
-    gap: 1px;
-    padding-top: 180px;
 
-    transform: scale(1.2);
-    opacity: 0;
+    transform: scale(1);
+    opacity: 1;
     transition: transform 0.6s ease, opacity 0.6s ease;
-    }
+}
+
 
 .letter-window.open {
     transform:scale(1);
