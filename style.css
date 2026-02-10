@@ -48,7 +48,7 @@ body {
     width: 90vw;
     max-width: 800px;
     aspect-ratio: 3/2;
-    padding: 20px 20px 0 20px ;
+    padding: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +93,6 @@ p {
     width: 180px;
     }
 
-    Buttons
 
     .buttons {
         display: flex;
@@ -138,7 +137,7 @@ p {
     line-height: 1.4;
     text-align: center;
     display: inline-block;
-    padding: 10px 20 px;
+    padding: 10px 20px;
     background-color: rgba(225,240,240,0.5);
     border-radius: 12px;
     }

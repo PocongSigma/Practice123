@@ -26,7 +26,7 @@ noBtn.addEventListener("mouseover", () => {
     const min = 200;
     const max = 200;
 
-    const distance = Math.random() * (max-min) + min;
+    const distance = Math.random() * (max - min) + min;
     const angle = Math.random() * Math.PI * 2;
 
     const moveX= Math.cos(angle) * distance;
@@ -60,7 +60,7 @@ noBtn.addEventListener("mouseover", () => {
 // Yes is Clicked
 
 yesBtn.addEventListener("click", () => {
-    title.textContent = " Its a Pleasure Princess";
+    title.textContent = "Lesgooooo";
 
     catImg.src = "cat_dance.gif";
 
