@@ -14,8 +14,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-family: "Pixelify Sans", sans-serif;
+    background-attachment: fixed;
+         }
 
-    }
 
     /* Envelope Screen */
     #envelope-container {
