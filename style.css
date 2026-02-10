@@ -53,23 +53,25 @@ body {
 }
 
 .letter-window{
-    width: 90vw;             
+    width: 90vw;
     max-width: 800px;
-    aspect-ratio: 3/2;       
-    padding: 0; 
+    aspect-ratio: 3/2;
+    padding: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     background-image: url("window.png");
-    background-size: cover; 
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 12px;
+    gap: 1px;
+    padding-top: 180px;
 
-    transform: scale(1);
-    opacity: 1;
+    transform: scale(1.2);
+    opacity: 0;
     transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
